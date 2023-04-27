@@ -1,0 +1,58 @@
+.doctor-text{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+
+.dashboard-container{
+    text-align: center;
+}
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+.home-heading{
+    text-align: center;
+    text-decoration: none;
+    color: #08062a;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.heading-welcome{
+    text-align: center;
+    text-decoration: none;
+    color: #08062a;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.patient-features-container:after {
+    content: "";
+    display: flex;
+    clear: both;
+    margin-left: 50px;
+    background-color: rgb(49, 160, 544);
+}
+
+.patient-features-container{
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    background: #08062a;
+    display: inline-block;
+    margin: 25px;
+    border-radius: 10px;
+    padding: 30px;
+    width: 36%;
+    box-shadow: 0 4px 8px 0 rgba(114, 111, 111, 0.2);
+}
