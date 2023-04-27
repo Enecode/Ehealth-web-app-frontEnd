@@ -34,7 +34,7 @@ const DoctorRegistration = () => {
 
   return (
     <div className='register-container'>
-      <p className='heading'>Enter your username and password below to login</p>
+      <p className='heading'>Enter your details below to register</p>
       <form onSubmit={handleSubmit}>
         <label>
           First Name:
