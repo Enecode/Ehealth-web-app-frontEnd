@@ -22,7 +22,7 @@ const DoctorRegistration = () => {
       email: email,
     };
     try {
-      const res = await axios.post('http://52.87.213.149:8000/api/register/', newUser);
+      const res = await axios.post('http://52.87.213.149/api/register/', newUser);
       navigate("/DoctorLogin")
       console.log(res.data);
       
