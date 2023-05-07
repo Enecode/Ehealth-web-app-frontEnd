@@ -12,7 +12,7 @@ const PatientUpdateForm = ({patient_Id}) => {
   useEffect(() => {
     console.log("id -->", patient_Id)
     
-    axios.get(`http://52.87.213.149:8000/api/patients/${patient_Id}/`)
+    axios.get(`https://imperfect-bite-pipeops-852f7cf2.pipeops.app/api/patients/${patient_Id}/`)
       .then(response => {
         const { first_name, last_name, gender, email, phone_number } = response.data;
         setFirstName(first_name);

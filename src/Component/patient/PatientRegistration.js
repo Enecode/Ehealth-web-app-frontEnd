@@ -19,7 +19,7 @@ const PatientRegistration = () => {
       password: password,
     };
     try {
-      const res = await axios.post('http://52.87.213.149:8000/api/register/', newUser);
+      const res = await axios.post('https://imperfect-bite-pipeops-852f7cf2.pipeops.app/api/register/', newUser);
       navigate("/PatientLogin")
       console.log(res);
       console.log(res.data);

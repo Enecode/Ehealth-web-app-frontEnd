@@ -11,14 +11,14 @@ function PatientLogin() {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    axios.post('http://52.87.213.149:8000/api/token/', {
+    axios.post('https://imperfect-bite-pipeops-852f7cf2.pipeops.app/api/token/', {
       password: password,
       username: username,
     })
       .then((response) => {
   
 
-        axios.post('http://52.87.213.149:8000/api/token/', {
+        axios.post('https://imperfect-bite-pipeops-852f7cf2.pipeops.app/api/token/', {
           password: password,
           username: username,
          

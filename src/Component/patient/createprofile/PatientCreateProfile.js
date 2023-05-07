@@ -22,7 +22,7 @@ function PatientCreateProfile() {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    axios.post('http://52.87.213.149:8000/api/patients/create/', {
+    axios.post('https://imperfect-bite-pipeops-852f7cf2.pipeops.app/api/patients/create/', {
       first_name: first_name,
       last_name: last_name,
       address: address,

@@ -8,7 +8,7 @@ function PatientDetail({ patient_id }) {
   useEffect(() => {
     const fetchPatient = async () => {
       try {
-        const response = await fetch(`http://52.87.213.149:8000/api/patients/`);
+        const response = await fetch(`https://imperfect-bite-pipeops-852f7cf2.pipeops.app/api/patients/`);
         if (!response.ok) {
           throw new Error('Failed to fetch patient data');
         }

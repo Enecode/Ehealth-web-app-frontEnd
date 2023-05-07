@@ -14,6 +14,7 @@ const DoctorRegistration = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    const apiUrl = 'https://imperfect-bite-pipeops-852f7cf2.pipeops.app/api/register/';
     const newUser = {
       first_name: first_name,
       last_name: last_name,
@@ -22,7 +23,7 @@ const DoctorRegistration = () => {
       email: email,
     };
     try {
-      const res = await axios.post('http://52.87.213.149/api/register/', newUser);
+      const res = await axios.post(apiUrl, newUser);
       navigate("/DoctorLogin")
       console.log(res.data);
       
